@@ -1,0 +1,348 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+@font-face {
+	font-family: Two-of-hearts;
+	src: url("../fonts/Two\ of\ Hearts.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: Callista;
+	src: url("../fonts/Callista.ttf") format("opentype");
+}
+
+@font-face {
+	font-family: Coffee-Mood;
+	src: url("../fonts/Coffee\ Mood.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Mukta;
+	src: url("../fonts/Mukta-ExtraLight.ttf") format("opentype");
+}
+
+html {
+	background: url('../img/background.jpg') #fff no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+body {
+	font-family: Verdana;
+	color: #000;
+}
+
+header {
+	margin: 0 115px 0 115px;
+	box-shadow: 0 -6px 10px 5px rgba(0,0,0,0.5);
+}
+
+nav {
+	background-color: rgba(255, 255, 255, 0.9);
+	background-image: url('../img/nav_picture.jpg');
+	height: 55px;
+	letter-spacing: 3px;
+	text-align: center;
+	box-shadow: 0 -6px 10px 5px rgba(248, 157, 157, 0.5);
+	margin-bottom: 3px;
+}
+
+#header-image {
+	height: 300px;
+	color: #000;
+	text-align: center;
+	background-image: url('../img/header-home.jpg');
+	background-position-y: center;
+	background-position-x: center;
+	background-size: 1070px;
+}
+
+ul {
+	padding-top: 2px;
+	text-align: center;
+	font-family: Callista;
+	font-size: 40px;
+}
+
+li {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+a {
+	color: #2707079a;
+	text-decoration: none;
+}
+
+#active a {
+	color: rgba(157, 112, 100, 0.601);
+}
+
+a:hover {
+	text-decoration:underline;
+}
+
+main {
+	background-color: rgba(255, 255, 255, 0.7);
+	width: 960px;
+	margin: 5px auto 0 auto;
+	padding: 30px;
+	text-align: center;
+	box-shadow: 0 -6px 10px 5px rgba(83, 55, 55, 0.496);
+}
+
+main p {
+	padding-left: 0px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.container {
+	display:inline-flex;
+	align-items:normal; /* Vertically center the content */
+	justify-content: space-between; /* Space between text and images */
+	max-width: 1000px; /* Adjust as needed */
+	margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .text {
+	flex: 1; /* Take remaining space */
+	padding: 0px; /* Adjust as needed */
+  }
+
+  .text p{
+	flex: 1; /* Take remaining space */
+	margin: 0 0px 0 20px;
+  }
+  
+  .images {
+	flex: 1; /* Take remaining space */
+	display: flex;
+	flex-direction: column; /* Stack images vertically */
+	align-items: center; /* Center images horizontally */
+	margin-top: 60px;
+  }
+  
+  .images img {
+	max-width: 100%; /* Ensure images fit within their container */
+	margin-bottom: 0px; /* Adjust as needed to add spacing between images */
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+footer {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding-bottom: 25px;
+}
+
+h1 {
+	font-size: 6em;
+	color: rgba(105, 63, 93, 0.739);
+	font-family:Callista;
+	letter-spacing: 20px;
+}
+
+h2 {
+	font-size: 2em;
+	color: rgba(105, 63, 93, 0.739);
+	font-family:Callista;
+	letter-spacing: 15px;
+}
+
+h3 {
+	font-size: 2em;
+	color: rgba(105, 63, 93, 0.739);
+	font-family: cursive;
+	letter-spacing: 5px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 1.5em;
+	color: rgba(105, 63, 93, 0.739);
+	font-family: cursive;
+	letter-spacing: 1px;
+}
+
+.menu {
+	background-color: rgba(255, 255, 255, 0.621);
+	margin: 0 20px 0 20px;
+	box-shadow: 0 -2px 8px 5px rgba(110, 100, 66, 0.5);
+}
+
+.menu p {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+.menu-category h2 {
+	font-size: 1.9em;
+	font-family: cursive;
+	color: rgba(0, 0, 0, 0.957);
+	margin-top: 15px;
+	letter-spacing: 1px;
+	margin: 0 0 0 0;
+}
+
+.menu-category h3 {
+	font-size: 0.6em;
+	font-family: cursive;
+	color: rgba(0, 0, 0, 0.957);
+	margin-top: 5px;
+	letter-spacing: 1px;
+}
+
+.menu-category p {
+	font-size: 0.5em;
+	color: rgba(0, 0, 0, 0.957);
+}
+
+main header p {
+	margin: 10px;
+	font-family:Mukta;
+}
+
+main p {
+	margin: 0px 150px 0px 150px;
+}
+
+form p label {
+	display:block;
+    font-size: 1.2rem;
+	margin-top: 17px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  width: 25%;
+  padding: 7px;
+  margin: 2px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  text-align: left;
+} 
+
+select[name="people"] {
+	width:8%;
+	padding: 10px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	border-radius: 40px;
+}
+
+select[name="time"] {
+	width: 12%;
+	padding: 10px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	border-radius: 40px;
+}
+
+input[type="date"] {
+	width:19%;
+	padding: 10px;
+	margin: 2px;
+	border: 1px solid #ccc;
+	border-radius: 40px;
+}
+
+
+input[type="submit"],  
+input[type="reset"] {
+	background-color: rgba(136, 93, 23, 0.5);
+	color: #fff;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 50px;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover, 
+input[type="reset"]:hover {
+  background-color: rgba(246, 194, 96, 0.739);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: #ee9b77;
+  box-shadow: 0 0 5px rgba(217, 222, 227, 0.5);
+}
+
+#fruit-main {
+	width:1200px;
+}
+
+#fruit-data div {
+	border: 1px solid #d87a7a6c;
+	margin-top: 20px;
+}
+
+#fruit-data tr th {
+	font-weight: 500;
+	font-size: 22px;
+	font-family:'Two-of-hearts';
+	padding-right: 30px;
+	color: #60303091;
+}
+
+#fruit-data tr td {
+	font-size: 20px;
+	font-family: 'Coffee-Mood';
+	color: #453535b0;
+}
+
+main p {
+	color: rgba(48, 35, 35, 0.9);
+	font-family: 'Mukta';
+}
+
+#header-image {
+	background-image: url("../img/header-home.jpg");
+	width: 100%; 
+	height: 300px; 
+}
+
+#cherry {
+	width: 70px;
+}
+
+footer {
+	font-size: 40px;
+	font-family: Callista;
+	margin: 30px 190px 30px 190px;
+	background-color: #f5f5f5;
+	background-image: url('../img/footer.jpg');
+	box-shadow: 0 -6px 10px 5px rgba(110, 100, 66, 0.5);
+}
+
+footer address {
+	margin: 0px 50px 0px 50px;
+	font-size: 15px;
+	font-family: cursive;
+	display: inline-block;
+}
+
+footer address .heading {
+	font-size: 25px;
+	letter-spacing: 4px;
+}
